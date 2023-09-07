@@ -1,0 +1,6 @@
+{
+  "dogs": [
+    { "breed": "Maltese", "country": "Malta" },
+    { "breed": "Shiba", "country": "Japan" }
+  ]
+}
