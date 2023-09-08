@@ -10,7 +10,7 @@ app.use(express.static('/index.html'))
 //ejsの準備
 app.set('view engine', 'ejs')
 //viewsフォルダがルートにない場合はこれが必要
-//__dirnameは現在の場所
+//__dirnameは現在の場所 importを使う時はこれは使えない　代わりにはpath.resolve()
 app.set('views', path.join(__dirname, 'views'))
 
 app.get('/', (req, res) => {
